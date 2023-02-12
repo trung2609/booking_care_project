@@ -2,12 +2,12 @@
   "name": "be-doctor-care",
   "version": "1.0.0",
   "description": "doctor care backend",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node src/server.js"
   },
-  "author": "Hary Pham",
+  "author": "Trung",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -26,6 +26,7 @@
     "express-session": "^1.17.0",
     "express-validator": "^6.4.0",
     "faker": "^4.1.0",
+    "ignore-by-default": "^2.1.0",
     "lodash": "^4.17.20",
     "method-override": "^3.0.0",
     "minizip-asm.js": "^1.0.10",
